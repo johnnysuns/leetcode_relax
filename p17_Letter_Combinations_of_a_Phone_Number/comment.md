@@ -1,7 +1,11 @@
-# 方法一：递归
+# 17 Letter Combinations of a Phone Number
 
-在submission中发现有同学使用递归的方法，程序比较简单。
+## 方法一：递归
+
+递归的程序比较简单。
 但是每一次计算printwords都会重复计算子字符串，非常耗时。
+
+在submission中发现某同学的递归代码：
 
 ```cpp
 void printwords(vector<string>*p,unordered_map<int,string> *mp,string &digits, int start, int size,string word)
@@ -24,16 +28,21 @@ void printwords(vector<string>*p,unordered_map<int,string> *mp,string &digits, i
 }
 ```
 
-# 方法二：递推
+## 方法二：递推
 
 递推的方法相比于递归速度更快，因为不需要重复计算。
-方法为从后往前遍历digits每个元素，每考虑一个元素，将res复制digits[i]数字对应字母数倍，分别在新res中的每份旧res前面加上digits[i]中各字母。
+方法为：
+1. 从后往前遍历digits每个元素；
+2. 每考虑一个元素，需要将res复制j-1份，j为digits[i]数字对应字母数量；
+3. 在复制j-1份旧res到新res时，在各份旧res[k]前面加上digits[i]中各字母digits[i][j]；
+4. 在第一份旧res前加上digits[i][0]。
 
 经过测试，发现官方例程中将0和1也作为字符串考虑进来，这里也这么做。
 
 **坑爹的是**，测试中，digits输入""时官方例程输出为[]（空vector），如果你的程序输出是[""]（vector里有一个空字符串）将会被判别为WA
 
-我的源码
+我的源码：
+
 ```cpp
 vector<string> letterCombinations(string digits) {
     vector<string> res;
