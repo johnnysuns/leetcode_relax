@@ -47,3 +47,7 @@ CTestTestfile.cmake
 */cmake-build-debug/*
 
 CmakeLists.txt
+venv
+config.cfg
+cookies.json
+*.lock
