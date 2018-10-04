@@ -1,9 +1,9 @@
 # Leetcode Solutions
-Update time:  2018-10-04 20:15:56
+Update time:  2018-10-05 01:18:16
 
 Auto created by leetcode_generate modified from [bonfy/leetcode](https://github.com/bonfy/leetcode)
 
-**23   /   863** problems solved!
+**25   /   863** problems solved!
 
 **139** problems locked.
 
@@ -30,5 +30,7 @@ Auto created by leetcode_generate modified from [bonfy/leetcode](https://github.
 |19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list)|[Cpp](solutions/019_Remove_Nth_Node_From_End_of_List/019_Remove_Nth_Node_From_End_of_List.cpp)|[Note](solutions/019_Remove_Nth_Node_From_End_of_List/readme.md)|Medium|
 |20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses)|[Cpp](solutions/020_Valid_Parentheses/020_Valid_Parentheses.cpp)|[Note](solutions/020_Valid_Parentheses/readme.md)|Easy|
 |21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists)|[Cpp](solutions/021_Merge_Two_Sorted_Lists/021_Merge_Two_Sorted_Lists.cpp)||Easy|
+|22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses)|[Cpp](solutions/022_Generate_Parentheses/022_Generate_Parentheses.cpp)||Medium|
+|23|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists)|[Cpp](solutions/023_Merge_k_Sorted_Lists/023_Merge_k_Sorted_Lists.cpp)||Hard|
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array)|[Cpp](solutions/026_Remove_Duplicates_from_Sorted_Array/026_Remove_Duplicates_from_Sorted_Array.cpp)||Easy|
 |375|[Guess Number Higher or Lower II](https://leetcode.com/problems/guess-number-higher-or-lower-ii)|[Cpp](solutions/375_Guess_Number_Higher_or_Lower_II/375_Guess_Number_Higher_or_Lower_II.cpp)|[Note](solutions/375_Guess_Number_Higher_or_Lower_II/readme.md)|Medium|
