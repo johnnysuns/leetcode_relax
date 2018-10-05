@@ -1,9 +1,9 @@
 # Leetcode Solutions
-Update time:  2018-10-05 23:03:40
+Update time:  2018-10-06 00:45:19
 
 Auto created by leetcode_generate modified from [bonfy/leetcode](https://github.com/bonfy/leetcode)
 
-**27   /   863** problems solved!
+**29   /   863** problems solved!
 
 **139** problems locked.
 
@@ -35,4 +35,6 @@ Auto created by leetcode_generate modified from [bonfy/leetcode](https://github.
 |24|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs)|[Cpp](solutions/024_Swap_Nodes_in_Pairs/024_Swap_Nodes_in_Pairs.cpp)|[Note](solutions/024_Swap_Nodes_in_Pairs/readme.md)|Medium|
 |25|[Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group)|[Cpp](solutions/025_Reverse_Nodes_in_k-Group/025_Reverse_Nodes_in_k-Group.cpp)||Hard|
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array)|[Cpp](solutions/026_Remove_Duplicates_from_Sorted_Array/026_Remove_Duplicates_from_Sorted_Array.cpp)||Easy|
+|27|[Remove Element](https://leetcode.com/problems/remove-element)|[Cpp](solutions/027_Remove_Element/027_Remove_Element.cpp)||Easy|
+|28|[Implement strStr()](https://leetcode.com/problems/implement-strstr)|[Cpp](solutions/028_Implement_strStr()/028_Implement_strStr().cpp)||Easy|
 |375|[Guess Number Higher or Lower II](https://leetcode.com/problems/guess-number-higher-or-lower-ii)|[Cpp](solutions/375_Guess_Number_Higher_or_Lower_II/375_Guess_Number_Higher_or_Lower_II.cpp)|[Note](solutions/375_Guess_Number_Higher_or_Lower_II/readme.md)|Medium|
