@@ -1,9 +1,9 @@
 # Leetcode Solutions
-Update time:  2018-10-05 21:55:46
+Update time:  2018-10-05 23:03:40
 
 Auto created by leetcode_generate modified from [bonfy/leetcode](https://github.com/bonfy/leetcode)
 
-**26   /   863** problems solved!
+**27   /   863** problems solved!
 
 **139** problems locked.
 
@@ -33,5 +33,6 @@ Auto created by leetcode_generate modified from [bonfy/leetcode](https://github.
 |22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses)|[Cpp](solutions/022_Generate_Parentheses/022_Generate_Parentheses.cpp)||Medium|
 |23|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists)|[Cpp](solutions/023_Merge_k_Sorted_Lists/023_Merge_k_Sorted_Lists.cpp)||Hard|
 |24|[Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs)|[Cpp](solutions/024_Swap_Nodes_in_Pairs/024_Swap_Nodes_in_Pairs.cpp)|[Note](solutions/024_Swap_Nodes_in_Pairs/readme.md)|Medium|
+|25|[Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group)|[Cpp](solutions/025_Reverse_Nodes_in_k-Group/025_Reverse_Nodes_in_k-Group.cpp)||Hard|
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array)|[Cpp](solutions/026_Remove_Duplicates_from_Sorted_Array/026_Remove_Duplicates_from_Sorted_Array.cpp)||Easy|
 |375|[Guess Number Higher or Lower II](https://leetcode.com/problems/guess-number-higher-or-lower-ii)|[Cpp](solutions/375_Guess_Number_Higher_or_Lower_II/375_Guess_Number_Higher_or_Lower_II.cpp)|[Note](solutions/375_Guess_Number_Higher_or_Lower_II/readme.md)|Medium|
