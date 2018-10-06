@@ -1,9 +1,9 @@
 # Leetcode Solutions
-Update time:  2018-10-06 15:10:03
+Update time:  2018-10-06 16:21:14
 
 Auto created by leetcode_generate modified from [bonfy/leetcode](https://github.com/bonfy/leetcode)
 
-**31   /   863** problems solved!
+**32   /   863** problems solved!
 
 **139** problems locked.
 
@@ -37,6 +37,7 @@ Auto created by leetcode_generate modified from [bonfy/leetcode](https://github.
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array)|[Cpp](solutions/026_Remove_Duplicates_from_Sorted_Array/026_Remove_Duplicates_from_Sorted_Array.cpp)||Easy|
 |27|[Remove Element](https://leetcode.com/problems/remove-element)|[Cpp](solutions/027_Remove_Element/027_Remove_Element.cpp)||Easy|
 |28|[Implement strStr()](https://leetcode.com/problems/implement-strstr)|[Cpp](solutions/028_Implement_strStr()/028_Implement_strStr().cpp)||Easy|
-|29|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers)|[Cpp](solutions/029_Divide_Two_Integers/029_Divide_Two_Integers.cpp)||Medium|
-|30|[Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words)|[Cpp](solutions/030_Substring_with_Concatenation_of_All_Words/030_Substring_with_Concatenation_of_All_Words.cpp)||Hard|
+|29|[Divide Two Integers](https://leetcode.com/problems/divide-two-integers)|[Cpp](solutions/029_Divide_Two_Integers/029_Divide_Two_Integers.cpp)|[Note](solutions/029_Divide_Two_Integers/readme.md)|Medium|
+|30|[Substring with Concatenation of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words)|[Cpp](solutions/030_Substring_with_Concatenation_of_All_Words/030_Substring_with_Concatenation_of_All_Words.cpp)|[Note](solutions/030_Substring_with_Concatenation_of_All_Words/readme.md)|Hard|
+|34|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array)|[Cpp](solutions/034_Find_First_and_Last_Position_of_Element_in_Sorted_Array/034_Find_First_and_Last_Position_of_Element_in_Sorted_Array.cpp)|[Note](solutions/034_Find_First_and_Last_Position_of_Element_in_Sorted_Array/readme.md)|Medium|
 |375|[Guess Number Higher or Lower II](https://leetcode.com/problems/guess-number-higher-or-lower-ii)|[Cpp](solutions/375_Guess_Number_Higher_or_Lower_II/375_Guess_Number_Higher_or_Lower_II.cpp)|[Note](solutions/375_Guess_Number_Higher_or_Lower_II/readme.md)|Medium|
