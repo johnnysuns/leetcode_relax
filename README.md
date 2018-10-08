@@ -1,9 +1,9 @@
 # Leetcode Solutions
-Update time:  2018-10-07 14:20:33
+Update time:  2018-10-08 20:11:50
 
 Auto created by leetcode_generate modified from [bonfy/leetcode](https://github.com/bonfy/leetcode)
 
-**34   /   867** problems solved!
+**35   /   867** problems solved!
 
 **139** problems locked.
 
@@ -42,4 +42,5 @@ Auto created by leetcode_generate modified from [bonfy/leetcode](https://github.
 |32|[Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses)|[Cpp](solutions/032_Longest_Valid_Parentheses/032_Longest_Valid_Parentheses.cpp)||Hard|
 |33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array)|[Cpp](solutions/033_Search_in_Rotated_Sorted_Array/033_Search_in_Rotated_Sorted_Array.cpp)||Medium|
 |34|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array)|[Cpp](solutions/034_Find_First_and_Last_Position_of_Element_in_Sorted_Array/034_Find_First_and_Last_Position_of_Element_in_Sorted_Array.cpp)|[Note](solutions/034_Find_First_and_Last_Position_of_Element_in_Sorted_Array/readme.md)|Medium|
+|35|[Search Insert Position](https://leetcode.com/problems/search-insert-position)|[Cpp](solutions/035_Search_Insert_Position/035_Search_Insert_Position.cpp)||Easy|
 |375|[Guess Number Higher or Lower II](https://leetcode.com/problems/guess-number-higher-or-lower-ii)|[Cpp](solutions/375_Guess_Number_Higher_or_Lower_II/375_Guess_Number_Higher_or_Lower_II.cpp)|[Note](solutions/375_Guess_Number_Higher_or_Lower_II/readme.md)|Medium|
