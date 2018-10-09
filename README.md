@@ -1,9 +1,9 @@
 # Leetcode Solutions
-Update time:  2018-10-08 21:37:18
+Update time:  2018-10-09 10:57:40
 
 Auto created by leetcode_generate modified from [bonfy/leetcode](https://github.com/bonfy/leetcode)
 
-**37   /   867** problems solved!
+**39   /   867** problems solved!
 
 **139** problems locked.
 
@@ -45,4 +45,6 @@ Auto created by leetcode_generate modified from [bonfy/leetcode](https://github.
 |35|[Search Insert Position](https://leetcode.com/problems/search-insert-position)|[Cpp](solutions/035_Search_Insert_Position/035_Search_Insert_Position.cpp)||Easy|
 |63|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii)|[Cpp](solutions/063_Unique_Paths_II/063_Unique_Paths_II.cpp)||Medium|
 |91|[Decode Ways](https://leetcode.com/problems/decode-ways)|[Cpp](solutions/091_Decode_Ways/091_Decode_Ways.cpp)|[Note](solutions/091_Decode_Ways/readme.md)|Medium|
+|115|[Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences)|[Cpp](solutions/115_Distinct_Subsequences/115_Distinct_Subsequences.cpp)||Hard|
+|237|[Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list)|[Cpp](solutions/237_Delete_Node_in_a_Linked_List/237_Delete_Node_in_a_Linked_List.cpp)||Easy|
 |375|[Guess Number Higher or Lower II](https://leetcode.com/problems/guess-number-higher-or-lower-ii)|[Cpp](solutions/375_Guess_Number_Higher_or_Lower_II/375_Guess_Number_Higher_or_Lower_II.cpp)|[Note](solutions/375_Guess_Number_Higher_or_Lower_II/readme.md)|Medium|
