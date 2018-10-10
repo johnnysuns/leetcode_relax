@@ -1,9 +1,9 @@
 # Leetcode Solutions
-Update time:  2018-10-09 10:57:40
+Update time:  2018-10-09 22:22:52
 
 Auto created by leetcode_generate modified from [bonfy/leetcode](https://github.com/bonfy/leetcode)
 
-**39   /   867** problems solved!
+**40   /   867** problems solved!
 
 **139** problems locked.
 
@@ -44,6 +44,7 @@ Auto created by leetcode_generate modified from [bonfy/leetcode](https://github.
 |34|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array)|[Cpp](solutions/034_Find_First_and_Last_Position_of_Element_in_Sorted_Array/034_Find_First_and_Last_Position_of_Element_in_Sorted_Array.cpp)|[Note](solutions/034_Find_First_and_Last_Position_of_Element_in_Sorted_Array/readme.md)|Medium|
 |35|[Search Insert Position](https://leetcode.com/problems/search-insert-position)|[Cpp](solutions/035_Search_Insert_Position/035_Search_Insert_Position.cpp)||Easy|
 |63|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii)|[Cpp](solutions/063_Unique_Paths_II/063_Unique_Paths_II.cpp)||Medium|
+|64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum)|[Cpp](solutions/064_Minimum_Path_Sum/064_Minimum_Path_Sum.cpp)||Medium|
 |91|[Decode Ways](https://leetcode.com/problems/decode-ways)|[Cpp](solutions/091_Decode_Ways/091_Decode_Ways.cpp)|[Note](solutions/091_Decode_Ways/readme.md)|Medium|
 |115|[Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences)|[Cpp](solutions/115_Distinct_Subsequences/115_Distinct_Subsequences.cpp)||Hard|
 |237|[Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list)|[Cpp](solutions/237_Delete_Node_in_a_Linked_List/237_Delete_Node_in_a_Linked_List.cpp)||Easy|
