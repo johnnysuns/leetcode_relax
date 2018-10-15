@@ -314,12 +314,19 @@ class Leetcode:
         # set limit a big num
         limit = 20
         offset = 0
+        count = 0
         while True:
             submissions_url = '{}/api/submissions/?format=json&limit={}&offset={}'.format(
                 self.base_url, limit, offset
             )
+            print(submissions_url)
             resp = self.session.get(submissions_url, proxies=PROXIES)
-            assert resp.status_code == 200
+            while resp.status_code != 200:
+                print(submissions_url)
+                resp = self.session.get(submissions_url, proxies=PROXIES)
+                count=count+1
+                if count == 10:
+                    break
             data = resp.json()
             if 'has_next' not in data.keys():
                 raise Exception('Get submissions wrong, Check network\n')
