@@ -1,9 +1,9 @@
 # Leetcode Solutions
-Update time:  2018-10-09 22:22:52
+Update time:  2018-10-15 19:45:09
 
 Auto created by leetcode_generate modified from [bonfy/leetcode](https://github.com/bonfy/leetcode)
 
-**40   /   867** problems solved!
+**42   /   871** problems solved!
 
 **139** problems locked.
 
@@ -43,6 +43,8 @@ Auto created by leetcode_generate modified from [bonfy/leetcode](https://github.
 |33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array)|[Cpp](solutions/033_Search_in_Rotated_Sorted_Array/033_Search_in_Rotated_Sorted_Array.cpp)||Medium|
 |34|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array)|[Cpp](solutions/034_Find_First_and_Last_Position_of_Element_in_Sorted_Array/034_Find_First_and_Last_Position_of_Element_in_Sorted_Array.cpp)|[Note](solutions/034_Find_First_and_Last_Position_of_Element_in_Sorted_Array/readme.md)|Medium|
 |35|[Search Insert Position](https://leetcode.com/problems/search-insert-position)|[Cpp](solutions/035_Search_Insert_Position/035_Search_Insert_Position.cpp)||Easy|
+|36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku)|[Cpp](solutions/036_Valid_Sudoku/036_Valid_Sudoku.cpp)||Medium|
+|37|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver)|[Cpp](solutions/037_Sudoku_Solver/037_Sudoku_Solver.cpp)||Hard|
 |63|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii)|[Cpp](solutions/063_Unique_Paths_II/063_Unique_Paths_II.cpp)||Medium|
 |64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum)|[Cpp](solutions/064_Minimum_Path_Sum/064_Minimum_Path_Sum.cpp)||Medium|
 |91|[Decode Ways](https://leetcode.com/problems/decode-ways)|[Cpp](solutions/091_Decode_Ways/091_Decode_Ways.cpp)|[Note](solutions/091_Decode_Ways/readme.md)|Medium|
