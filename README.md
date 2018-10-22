@@ -1,9 +1,9 @@
 # Leetcode Solutions
-Update time:  2018-10-17 19:29:38
+Update time:  2018-10-22 22:38:38
 
 Auto created by leetcode_generate modified from [bonfy/leetcode](https://github.com/bonfy/leetcode)
 
-**46   /   871** problems solved!
+**48   /   875** problems solved!
 
 **139** problems locked.
 
@@ -49,6 +49,8 @@ Auto created by leetcode_generate modified from [bonfy/leetcode](https://github.
 |39|[Combination Sum](https://leetcode.com/problems/combination-sum)|[Cpp](solutions/039_Combination_Sum/039_Combination_Sum.cpp)|[Note](solutions/039_Combination_Sum/readme.md)|Medium|
 |40|[Combination Sum II](https://leetcode.com/problems/combination-sum-ii)|[Cpp](solutions/040_Combination_Sum_II/040_Combination_Sum_II.cpp)||Medium|
 |41|[First Missing Positive](https://leetcode.com/problems/first-missing-positive)|[Cpp](solutions/041_First_Missing_Positive/041_First_Missing_Positive.cpp)|[Note](solutions/041_First_Missing_Positive/readme.md)|Hard|
+|42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water)|[Cpp](solutions/042_Trapping_Rain_Water/042_Trapping_Rain_Water.cpp)||Hard|
+|43|[Multiply Strings](https://leetcode.com/problems/multiply-strings)|[Cpp](solutions/043_Multiply_Strings/043_Multiply_Strings.cpp)||Medium|
 |63|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii)|[Cpp](solutions/063_Unique_Paths_II/063_Unique_Paths_II.cpp)||Medium|
 |64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum)|[Cpp](solutions/064_Minimum_Path_Sum/064_Minimum_Path_Sum.cpp)||Medium|
 |91|[Decode Ways](https://leetcode.com/problems/decode-ways)|[Cpp](solutions/091_Decode_Ways/091_Decode_Ways.cpp)|[Note](solutions/091_Decode_Ways/readme.md)|Medium|
