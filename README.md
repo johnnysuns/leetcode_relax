@@ -1,9 +1,9 @@
 # Leetcode Solutions
-Update time:  2018-10-22 22:38:38
+Update time:  2018-10-28 20:32:49
 
 Auto created by leetcode_generate modified from [bonfy/leetcode](https://github.com/bonfy/leetcode)
 
-**48   /   875** problems solved!
+**55   /   879** problems solved!
 
 **139** problems locked.
 
@@ -51,6 +51,13 @@ Auto created by leetcode_generate modified from [bonfy/leetcode](https://github.
 |41|[First Missing Positive](https://leetcode.com/problems/first-missing-positive)|[Cpp](solutions/041_First_Missing_Positive/041_First_Missing_Positive.cpp)|[Note](solutions/041_First_Missing_Positive/readme.md)|Hard|
 |42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water)|[Cpp](solutions/042_Trapping_Rain_Water/042_Trapping_Rain_Water.cpp)||Hard|
 |43|[Multiply Strings](https://leetcode.com/problems/multiply-strings)|[Cpp](solutions/043_Multiply_Strings/043_Multiply_Strings.cpp)||Medium|
+|44|[Wildcard Matching](https://leetcode.com/problems/wildcard-matching)|[Cpp](solutions/044_Wildcard_Matching/044_Wildcard_Matching.cpp)||Hard|
+|45|[Jump Game II](https://leetcode.com/problems/jump-game-ii)|[Cpp](solutions/045_Jump_Game_II/045_Jump_Game_II.cpp)||Hard|
+|46|[Permutations](https://leetcode.com/problems/permutations)|[Cpp](solutions/046_Permutations/046_Permutations.cpp)||Medium|
+|47|[Permutations II](https://leetcode.com/problems/permutations-ii)|[Cpp](solutions/047_Permutations_II/047_Permutations_II.cpp)||Medium|
+|48|[Rotate Image](https://leetcode.com/problems/rotate-image)|[Cpp](solutions/048_Rotate_Image/048_Rotate_Image.cpp)||Medium|
+|49|[Group Anagrams](https://leetcode.com/problems/group-anagrams)|[Cpp](solutions/049_Group_Anagrams/049_Group_Anagrams.cpp)||Medium|
+|50|[Pow(x, n)](https://leetcode.com/problems/powx-n)|[Cpp](solutions/050_Pow(x,_n)/050_Pow(x,_n).cpp)||Medium|
 |63|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii)|[Cpp](solutions/063_Unique_Paths_II/063_Unique_Paths_II.cpp)||Medium|
 |64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum)|[Cpp](solutions/064_Minimum_Path_Sum/064_Minimum_Path_Sum.cpp)||Medium|
 |91|[Decode Ways](https://leetcode.com/problems/decode-ways)|[Cpp](solutions/091_Decode_Ways/091_Decode_Ways.cpp)|[Note](solutions/091_Decode_Ways/readme.md)|Medium|
