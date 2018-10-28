@@ -321,12 +321,12 @@ class Leetcode:
             )
             print(submissions_url)
             resp = self.session.get(submissions_url, proxies=PROXIES)
-            while resp.status_code != 200:
-                print(submissions_url)
-                resp = self.session.get(submissions_url, proxies=PROXIES)
-                count=count+1
-                if count == 10:
-                    break
+            # while resp.status_code != 200:
+            #     print(submissions_url)
+            #     resp = self.session.get(submissions_url, proxies=PROXIES)
+            #     count=count+1
+            #     if count == 10:
+            #         break
             data = resp.json()
             if 'has_next' not in data.keys():
                 raise Exception('Get submissions wrong, Check network\n')
@@ -334,6 +334,7 @@ class Leetcode:
             self.submissions += data['submissions_dump']
             if data['has_next']:
                 offset += limit
+                time.sleep(2.5)
             else:
                 break
 
