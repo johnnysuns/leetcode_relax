@@ -1,9 +1,9 @@
 # Leetcode Solutions
-Update time:  2018-10-28 20:32:49
+Update time:  2018-11-01 21:50:55
 
 Auto created by leetcode_generate modified from [bonfy/leetcode](https://github.com/bonfy/leetcode)
 
-**55   /   879** problems solved!
+**57   /   879** problems solved!
 
 **139** problems locked.
 
@@ -58,6 +58,8 @@ Auto created by leetcode_generate modified from [bonfy/leetcode](https://github.
 |48|[Rotate Image](https://leetcode.com/problems/rotate-image)|[Cpp](solutions/048_Rotate_Image/048_Rotate_Image.cpp)||Medium|
 |49|[Group Anagrams](https://leetcode.com/problems/group-anagrams)|[Cpp](solutions/049_Group_Anagrams/049_Group_Anagrams.cpp)||Medium|
 |50|[Pow(x, n)](https://leetcode.com/problems/powx-n)|[Cpp](solutions/050_Pow(x,_n)/050_Pow(x,_n).cpp)||Medium|
+|51|[N-Queens](https://leetcode.com/problems/n-queens)|[Cpp](solutions/051_N-Queens/051_N-Queens.cpp)||Hard|
+|52|[N-Queens II](https://leetcode.com/problems/n-queens-ii)|[Cpp](solutions/052_N-Queens_II/052_N-Queens_II.cpp)||Hard|
 |63|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii)|[Cpp](solutions/063_Unique_Paths_II/063_Unique_Paths_II.cpp)||Medium|
 |64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum)|[Cpp](solutions/064_Minimum_Path_Sum/064_Minimum_Path_Sum.cpp)||Medium|
 |91|[Decode Ways](https://leetcode.com/problems/decode-ways)|[Cpp](solutions/091_Decode_Ways/091_Decode_Ways.cpp)|[Note](solutions/091_Decode_Ways/readme.md)|Medium|
