@@ -1,9 +1,9 @@
 # Leetcode Solutions
-Update time:  2018-11-08 15:52:40
+Update time:  2018-11-19 13:03:23
 
 Auto created by leetcode_generate modified from [bonfy/leetcode](https://github.com/bonfy/leetcode)
 
-**64   /   883** problems solved!
+**66   /   891** problems solved!
 
 **139** problems locked.
 
@@ -63,6 +63,8 @@ Auto created by leetcode_generate modified from [bonfy/leetcode](https://github.
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray)|[Cpp](solutions/053_Maximum_Subarray/053_Maximum_Subarray.cpp)||Easy|
 |54|[Spiral Matrix](https://leetcode.com/problems/spiral-matrix)|[Cpp](solutions/054_Spiral_Matrix/054_Spiral_Matrix.cpp)||Medium|
 |55|[Jump Game](https://leetcode.com/problems/jump-game)|[Cpp](solutions/055_Jump_Game/055_Jump_Game.cpp)||Medium|
+|56|[Merge Intervals](https://leetcode.com/problems/merge-intervals)|[Cpp](solutions/056_Merge_Intervals/056_Merge_Intervals.cpp)||Medium|
+|57|[Insert Interval](https://leetcode.com/problems/insert-interval)|[Cpp](solutions/057_Insert_Interval/057_Insert_Interval.cpp)||Hard|
 |63|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii)|[Cpp](solutions/063_Unique_Paths_II/063_Unique_Paths_II.cpp)||Medium|
 |64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum)|[Cpp](solutions/064_Minimum_Path_Sum/064_Minimum_Path_Sum.cpp)||Medium|
 |91|[Decode Ways](https://leetcode.com/problems/decode-ways)|[Cpp](solutions/091_Decode_Ways/091_Decode_Ways.cpp)|[Note](solutions/091_Decode_Ways/readme.md)|Medium|
