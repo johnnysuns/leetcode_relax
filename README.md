@@ -1,9 +1,9 @@
 # Leetcode Solutions
-Update time:  2018-11-19 13:03:23
+Update time:  2018-11-22 21:10:44
 
 Auto created by leetcode_generate modified from [bonfy/leetcode](https://github.com/bonfy/leetcode)
 
-**66   /   891** problems solved!
+**73   /   891** problems solved!
 
 **139** problems locked.
 
@@ -65,8 +65,15 @@ Auto created by leetcode_generate modified from [bonfy/leetcode](https://github.
 |55|[Jump Game](https://leetcode.com/problems/jump-game)|[Cpp](solutions/055_Jump_Game/055_Jump_Game.cpp)||Medium|
 |56|[Merge Intervals](https://leetcode.com/problems/merge-intervals)|[Cpp](solutions/056_Merge_Intervals/056_Merge_Intervals.cpp)||Medium|
 |57|[Insert Interval](https://leetcode.com/problems/insert-interval)|[Cpp](solutions/057_Insert_Interval/057_Insert_Interval.cpp)||Hard|
+|58|[Length of Last Word](https://leetcode.com/problems/length-of-last-word)|[Cpp](solutions/058_Length_of_Last_Word/058_Length_of_Last_Word.cpp)||Easy|
+|59|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii)|[Cpp](solutions/059_Spiral_Matrix_II/059_Spiral_Matrix_II.cpp)||Medium|
+|60|[Permutation Sequence](https://leetcode.com/problems/permutation-sequence)|[Cpp](solutions/060_Permutation_Sequence/060_Permutation_Sequence.cpp)||Medium|
+|61|[Rotate List](https://leetcode.com/problems/rotate-list)|[Cpp](solutions/061_Rotate_List/061_Rotate_List.cpp)||Medium|
+|62|[Unique Paths](https://leetcode.com/problems/unique-paths)|[Cpp](solutions/062_Unique_Paths/062_Unique_Paths.cpp)||Medium|
 |63|[Unique Paths II](https://leetcode.com/problems/unique-paths-ii)|[Cpp](solutions/063_Unique_Paths_II/063_Unique_Paths_II.cpp)||Medium|
 |64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum)|[Cpp](solutions/064_Minimum_Path_Sum/064_Minimum_Path_Sum.cpp)||Medium|
+|66|[Plus One](https://leetcode.com/problems/plus-one)|[Cpp](solutions/066_Plus_One/066_Plus_One.cpp)||Easy|
+|67|[Add Binary](https://leetcode.com/problems/add-binary)|[Cpp](solutions/067_Add_Binary/067_Add_Binary.cpp)||Easy|
 |91|[Decode Ways](https://leetcode.com/problems/decode-ways)|[Cpp](solutions/091_Decode_Ways/091_Decode_Ways.cpp)|[Note](solutions/091_Decode_Ways/readme.md)|Medium|
 |115|[Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences)|[Cpp](solutions/115_Distinct_Subsequences/115_Distinct_Subsequences.cpp)||Hard|
 |141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle)|[Cpp](solutions/141_Linked_List_Cycle/141_Linked_List_Cycle.cpp)||Easy|
