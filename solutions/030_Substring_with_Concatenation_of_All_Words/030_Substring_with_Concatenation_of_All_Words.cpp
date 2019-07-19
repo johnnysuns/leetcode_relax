@@ -15,8 +15,8 @@
 //
 //
 // Input:
-//   s = "wordgoodstudentgoodword",
-//   words = ["word","student"]
+//   s = "wordgoodgoodgoodbestword",
+//   words = ["word","good","best","word"]
 // Output: []
 //
 //
