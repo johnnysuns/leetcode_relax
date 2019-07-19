@@ -20,6 +20,7 @@ import html
 from selenium import webdriver
 from collections import namedtuple, OrderedDict
 
+MAX_DIGIT_LEN = 4 # 1000+ PROBLEMS
 HOME = os.getcwd()
 CONFIG_FILE = os.path.join(HOME, 'config.cfg')
 COOKIE_PATH = 'cookies.json'
@@ -56,7 +57,7 @@ def get_config_from_file():
 
     language = cp.get('leetcode', 'language')
     if not language:
-        language = 'cpp'  # language default python
+        language = 'cpp'  # language default cpp
     repo = cp.get('leetcode', 'repo')
     if not repo:
         raise Exception('Please input your Github repo address')
@@ -104,6 +105,8 @@ ProgLangList = [
     ProgLang('kotlin', 'kt', '//'),
     ProgLang('swift', 'swift', '//'),
     ProgLang('golang', 'go', '//'),
+    ProgLang('scala', 'scala', '//'),
+    ProgLang('rust', 'rs', '//'),
 ]
 ProgLangDict = dict((item.language, item) for item in ProgLangList)
 CONFIG = get_config_from_file()
@@ -253,7 +256,6 @@ class Leetcode:
     def load(self):
         """
         load: all in one
-
         login -> load api -> load submissions -> solutions to items
         return `all in one items`
         """
@@ -312,21 +314,20 @@ class Leetcode:
     def load_submissions(self):
         """ load all submissions from leetcode """
         # set limit a big num
+        print('API load submissions request 2 seconds per request')
+        print('Please wait ...')
         limit = 20
         offset = 0
-        count = 0
+        last_key = ''
         while True:
-            submissions_url = '{}/api/submissions/?format=json&limit={}&offset={}'.format(
-                self.base_url, limit, offset
+            print('try to load submissions from ', offset, ' to ', offset+limit)
+            submissions_url = '{}/api/submissions/?format=json&limit={}&offset={}&last_key={}'.format(
+                self.base_url, limit, offset, last_key
             )
-            print(submissions_url)
+            
             resp = self.session.get(submissions_url, proxies=PROXIES)
-            # while resp.status_code != 200:
-            #     print(submissions_url)
-            #     resp = self.session.get(submissions_url, proxies=PROXIES)
-            #     count=count+1
-            #     if count == 10:
-            #         break
+            # print(submissions_url, ':', resp.status_code)
+            assert resp.status_code == 200
             data = resp.json()
             if 'has_next' not in data.keys():
                 raise Exception('Get submissions wrong, Check network\n')
@@ -334,6 +335,8 @@ class Leetcode:
             self.submissions += data['submissions_dump']
             if data['has_next']:
                 offset += limit
+                last_key = data['last_key']
+                # print('last_key:', last_key)
                 time.sleep(2.5)
             else:
                 break
@@ -341,7 +344,6 @@ class Leetcode:
     def load_solutions_to_items(self):
         """
         load all solutions to items
-
         combine submission's `runtime` `title` `lang` `submission_url` to items
         """
         titles = [i.question__title for i in self.items]
@@ -382,7 +384,6 @@ class Leetcode:
     def _get_code_by_solution(self, solution):
         """
         get code by solution
-
         solution: type dict
         """
         solution_url = solution['submission_url']
@@ -461,13 +462,13 @@ class Leetcode:
             )
             return
 
-        dirname = 'solutions/{id}_{title}'.format(id=str(qid).zfill(3), title=qtitle)
+        dirname = 'solutions/{id}_{title}'.format(id=str(qid).zfill(MAX_DIGIT_LEN), title=qtitle)
         print('begin download ' + dirname)
         check_and_make_dir(dirname)
         path = os.path.join(HOME, dirname)
         for slt in slts:
             fname = '{id}_{title}.{ext}'.format(
-                id=str(qid).zfill(3), title=qtitle, ext=self.prolangdict[slt['lang']].ext
+                id=str(qid).zfill(MAX_DIGIT_LEN), title=qtitle, ext=self.prolangdict[slt['lang']].ext
             )
             filename = os.path.join(path, fname)
             content = self._get_code_with_anno(slt)
@@ -535,7 +536,7 @@ Auto created by leetcode_generate modified from [bonfy/leetcode](https://github.
             if item.solutions:
                 note = ''
                 readmedir = 'solutions/{id}_{title}/readme.md'.format(
-                    id=str(item.question_id).zfill(3), title=item.question__title.replace(' ','_')
+                    id=str(item.question_id).zfill(MAX_DIGIT_LEN), title=item.question__title.replace(' ','_')
                 )
                 #if item.question__article__slug:
                 #    article = '[:memo:](https://leetcode.com/articles/{article}/)'.format(
@@ -548,7 +549,7 @@ Auto created by leetcode_generate modified from [bonfy/leetcode](https://github.
                 else:
                     if item.solutions:
                         dirname = '{id}_{title}'.format(
-                            id=str(item.question_id).zfill(3),
+                            id=str(item.question_id).zfill(MAX_DIGIT_LEN),
                             title=item.question__title.replace(' ','_'),
                         )
                         language = ''
@@ -562,7 +563,7 @@ Auto created by leetcode_generate modified from [bonfy/leetcode](https://github.
                             language += '[{language}](solutions/{dirname}/{id}_{title}.{ext})'.format(
                                 language=lan.capitalize(),
                                 repo=CONFIG['repo'],
-                                dirname=dirname,
+                                dirname=dirname,                                
                                 id=str(item.question_id).zfill(3),
                                 title=item.question__title.replace(' ','_'),
                                 ext=self.prolangdict[lan].ext,
