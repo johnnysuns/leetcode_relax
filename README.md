@@ -1,9 +1,9 @@
 # Leetcode Solutions
-Update time:  2019-07-20 02:46:22
+Update time:  2019-07-25 01:47:33
 
 Auto created by leetcode_generate modified from [bonfy/leetcode](https://github.com/bonfy/leetcode)
 
-**83   /   1055** problems solved!
+**88   /   1059** problems solved!
 
 **165** problems locked.
 
@@ -87,8 +87,13 @@ Auto created by leetcode_generate modified from [bonfy/leetcode](https://github.
 |217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate)|[Cpp](solutions/0217_Contains_Duplicate/217_Contains_Duplicate.cpp)||Easy|
 |237|[Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list)|[Cpp](solutions/0237_Delete_Node_in_a_Linked_List/237_Delete_Node_in_a_Linked_List.cpp)||Easy|
 |289|[Game of Life](https://leetcode.com/problems/game-of-life)|[Cpp](solutions/0289_Game_of_Life/289_Game_of_Life.cpp)||Medium|
+|315|[Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self)|[Cpp](solutions/0315_Count_of_Smaller_Numbers_After_Self/315_Count_of_Smaller_Numbers_After_Self.cpp)||Hard|
+|350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii)|[Cpp](solutions/0350_Intersection_of_Two_Arrays_II/350_Intersection_of_Two_Arrays_II.cpp)||Easy|
 |375|[Guess Number Higher or Lower II](https://leetcode.com/problems/guess-number-higher-or-lower-ii)|[Cpp](solutions/0375_Guess_Number_Higher_or_Lower_II/375_Guess_Number_Higher_or_Lower_II.cpp)|[Note](solutions/0375_Guess_Number_Higher_or_Lower_II/readme.md)|Medium|
+|406|[Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height)|[Cpp](solutions/0406_Queue_Reconstruction_by_Height/406_Queue_Reconstruction_by_Height.cpp)||Medium|
 |424|[Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement)|[Cpp](solutions/0424_Longest_Repeating_Character_Replacement/424_Longest_Repeating_Character_Replacement.cpp)||Medium|
+|720|[Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary)|[Cpp](solutions/0720_Longest_Word_in_Dictionary/720_Longest_Word_in_Dictionary.cpp)||Easy|
 |777|[Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix)|[Cpp](solutions/0777_Toeplitz_Matrix/777_Toeplitz_Matrix.cpp)||Easy|
 |893|[All Nodes Distance K in Binary Tree](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree)|[Cpp](solutions/0893_All_Nodes_Distance_K_in_Binary_Tree/893_All_Nodes_Distance_K_in_Binary_Tree.cpp)||Medium|
 |1031|[Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer)|[Cpp](solutions/1031_Add_to_Array-Form_of_Integer/1031_Add_to_Array-Form_of_Integer.cpp)||Easy|
+|1115|[Valid Boomerang](https://leetcode.com/problems/valid-boomerang)|[Cpp](solutions/1115_Valid_Boomerang/1115_Valid_Boomerang.cpp)||Easy|
